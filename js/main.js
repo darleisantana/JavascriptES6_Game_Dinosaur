@@ -2,10 +2,10 @@ const dino = document.querySelector('.dino');
 const background = document.querySelector('.background');
 let isJumping = false;
 let position = 0;
-console.log(dino);
+
 //Evento
 function handleKeyUp(event){
-    if(Event.keyCode === 32){
+    if(event.keyCode === 32){
         console.log('Pressionou Espaço!');
         if(!isJumping){
             jump();
