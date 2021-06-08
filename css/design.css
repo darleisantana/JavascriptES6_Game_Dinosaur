@@ -6,14 +6,14 @@ body{
     height: 60px;
     position: absolute;
     bottom: 0;
-    background-image: url(dino.png);
+    background-image: url(../img/dino.png);
 }
 .cactus{
     position: absolute;
     width: 60px;
     height: 60px;
     bottom: 0;
-    background-image: url(cactus.png);
+    background-image: url(../img/cactus.png);
 }
 .gameOver{
     text-align: center;
@@ -32,7 +32,7 @@ body{
 .background{
     position: absolute;
     bottom: 0;
-    background-image: url(background.img);
+    background-image: url(../img/background.img);
     background-repeat: repeat-x;
     animation: slideright 600s infinite linear;
     width: 100%;
